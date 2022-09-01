@@ -1,0 +1,30 @@
+.cart-top{
+
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffcc;
+    background-clip: border-box;
+    position: relative;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: .25rem;
+}
+
+.items{
+
+    margin: 0px 15px;
+    text-align: center;
+}
+
+.items img{
+
+    width: 65px;
+
+}
+
+.items a:hover{
+
+    color: #0066ff;
+    cursor: pointer;
+}
